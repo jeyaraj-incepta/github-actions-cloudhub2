@@ -20,8 +20,8 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-	"version" : "1.0" ,
-	"Greeting" : "Good Morning"
+	"version" : "2.0" ,
+	"Greeting" : "Very Good Morning"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
