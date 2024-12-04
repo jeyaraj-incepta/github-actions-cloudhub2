@@ -1,8 +1,10 @@
 name: Publish to Exchange & Deploy to CH2.0
 
-on:
+on: [push, workflow_dispatch]
   push:
     branches: [ main ]
+  
+  
     
 jobs:         
   build:
