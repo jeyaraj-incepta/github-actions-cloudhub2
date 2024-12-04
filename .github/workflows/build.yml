@@ -1,11 +1,9 @@
 name: Publish to Exchange & Deploy to CH2.0
 
-on: [push, workflow_dispatch]
+on:
   push:
     branches: [ main ]
-  
-  
-    
+        
 jobs:         
   build:
     runs-on: ubuntu-latest
